@@ -1,1 +1,44 @@
 @import "tailwindcss";
+
+@theme {
+  /* Brand */
+  --color-primary: #818cf8; /* indigo 400 (slightly lighter for dark) */
+  --color-primary-hover: #6366f1; /* indigo 500 */
+  --color-primary-soft: rgba(129, 140, 248, 0.18);
+
+  /* Status: Todo */
+  --color-todo: #94a3b8; /* slate 400 */
+  --color-todo-soft: rgba(148, 163, 184, 0.14);
+
+  /* Status: In Progress */
+  --color-inprogress: #fbbf24; /* amber 400 */
+  --color-inprogress-soft: rgba(251, 191, 36, 0.18);
+
+  /* Status: Done */
+  --color-done: #4ade80; /* green 400 */
+  --color-done-soft: rgba(74, 222, 128, 0.16);
+
+  /* Priority */
+  --color-high: #f87171; /* red 400 */
+  --color-high-soft: rgba(248, 113, 113, 0.16);
+
+  --color-medium: #fbbf24; /* amber 400 */
+  --color-medium-soft: rgba(251, 191, 36, 0.18);
+
+  --color-low: #34d399; /* emerald 400 */
+  --color-low-soft: rgba(52, 211, 153, 0.16);
+
+  /* UI */
+  --color-bg: #0b1220; /* near navy */
+  --color-card: #0f1a2d; /* deep card */
+  --color-subtle: #121f35; /* subtle panels */
+  --color-border: rgba(148, 163, 184, 0.22);
+
+  --color-text-primary: #e5e7eb; /* gray 200 */
+  --color-text-secondary: #a7b0c0; /* muted */
+  --color-text-muted: #7b8798; /* more muted */
+
+  /* Optional */
+  --color-overlay: rgba(0, 0, 0, 0.6);
+  --color-shadow: 0 18px 45px rgba(0, 0, 0, 0.38);
+}
